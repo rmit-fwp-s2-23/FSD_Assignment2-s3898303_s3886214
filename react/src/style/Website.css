@@ -1,0 +1,12 @@
+/*Kaiyan (s3898303), Moosa (s3898303)*/
+/*All pages BackGround Image*/
+body{
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    width: 100%; /* Span the entire width */
+    height: 100%; /* Span the entire height */
+    z-index: -1; /* Place the background behind the sign-in container */
+    background-image: url('../assets/BackGround.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Resize the image to cover the container */
+  }
+  

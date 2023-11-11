@@ -1,0 +1,150 @@
+/*Kaiyan (s3898303), Moosa (s3898303)*/
+/* Reviews.css */
+
+/* Styling for the container that holds reviews */
+.review-container {
+  background-color: #000; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding around the content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  max-width: 800px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  font-family: Arial, sans-serif; /* Font family for text */
+}
+
+/* Adding background image to the review container */
+.review-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../assets/BackGround.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  z-index: -1;
+}
+
+/* Styling for headings within the review container */
+.review-container h2 {
+  font-size: 28px; /* Font size */
+  margin-bottom: 20px; /* Spacing below the heading */
+  color: #fff; /* White color */
+}
+
+/* Styling for form groups (input elements) */
+.form-group {
+  margin-bottom: 20px; /* Spacing between form groups */
+}
+
+/* Styling for labels within form groups */
+.form-group label {
+  display: block; /* Display label as a block element */
+  font-weight: bold; /* Bold font */
+  margin-bottom: 6px; /* Spacing below the label */
+  color: #ff5733; /* ff5733 color */
+}
+
+/* Styling for select and textarea inputs */
+.form-group select,
+.form-group textarea {
+  width: 100%; /* Full width of the input */
+  padding: 10px; /* Padding within the input */
+  margin-bottom: 12px; /* Spacing below the input */
+  border: 1px solid #ff5733; /* ff5733 border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  color: #fff; /* Text color */
+  background-color: #333; /* Background color */
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+  background-color: #ff5733; /* ff5733 background */
+  color: #000; /* Text color */
+  border: none; /* No border */
+  padding: 12px 20px; /* Padding within the button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.2s; /* Transition effect */
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: bold; /* Bold font */
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+  background-color: #ff8256; /* Lighter ff5733 background on hover */
+}
+
+/* Styling for the review list */
+.review-list {
+  margin-top: 30px; /* Spacing above the review list */
+}
+
+/* Styling for individual review items */
+.review-item {
+  background-color: #333; /* Background color */
+  padding: 20px; /* Padding around the content */
+  border: 1px solid #ff5733; /* ff5733 border */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 20px; /* Spacing between review items */
+}
+
+/* Styling for review text within review items */
+.review-item p {
+  margin-bottom: 10px; /* Spacing below the review text */
+}
+
+/* Styling for edit and delete buttons within review items */
+.review-item button {
+  background-color: #ff5733; /* ff5733 background */
+  color: #000; /* Text color */
+  border: none; /* No border */
+  padding: 6px 12px; /* Padding within the button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 14px; /* Font size */
+  transition: background-color 0.2s; /* Transition effect */
+  margin-right: 10px; /* Spacing between buttons */
+}
+
+/* Hover effect for edit and delete buttons */
+.review-item button:hover {
+  background-color: #ff8256; /* Lighter ff5733 background on hover */
+}
+
+/* Styling for movie ratings section */
+.movie-ratings {
+  margin-top: 30px; /* Spacing above the movie ratings section */
+}
+
+/* Styling for individual movie rating items */
+.movie-rating-item {
+  background-color: #333; /* Background color */
+  padding: 20px; /* Padding around the content */
+  border: 1px solid #ff5733; /* ff5733 border */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 20px; /* Spacing between movie rating items */
+}
+
+/* Styling for movie name within movie rating items */
+.movie-rating-item h3 {
+  font-size: 18px; /* Font size */
+  margin-bottom: 10px; /* Spacing below the movie name */
+  color: #fff; /* White color */
+}
+
+/* Styling for average rating text within movie rating items */
+.movie-rating-item p {
+  color: #fff; /* Text color */
+}
+
+/* Styling for movie image within movie rating items */
+.movie-rating-item img {
+  display: block; /* Display as a block element */
+  margin-top: 10px; /* Spacing above the image */
+  max-width: 20%; /* Maximum width of the image */
+  height: auto; /* Maintain aspect ratio */
+}

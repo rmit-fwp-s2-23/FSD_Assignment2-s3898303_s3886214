@@ -1,0 +1,84 @@
+/*Kaiyan (s3898303), Moosa (s3898303)*/
+/* SignIn.css */
+
+/* Styling for the container that holds the sign-in form */
+.signin-container {
+  background-color: rgb(27, 26, 26); /* Dark background color */
+  color: white; /* Text color */
+  padding: 30px; /* Padding around the content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  max-width: 400px; /* Maximum width of the container */
+  margin: 150px auto; /* Center the container vertically and horizontally */
+  font-family: Arial, sans-serif; /* Font family for text */
+  position: relative; /* Added for positioning */
+}
+
+/* Styling for headings within the sign-in container */
+.signin-container h2 {
+  font-size: 28px; /* Font size */
+  margin-bottom: 20px; /* Spacing below the heading */
+  color: white; /* White color for text */
+}
+
+/* Styling for sign-in labels */
+.signin-label {
+  font-weight: bold; /* Bold font */
+  margin-bottom: 6px; /* Spacing below the label */
+  color: white; /* White color for text */
+}
+
+/* Styling for sign-in input fields */
+.signin-input {
+  width: 100%; /* Full width of the input */
+  padding: 10px; /* Padding within the input */
+  margin-bottom: 12px; /* Spacing below the input */
+  border: 1px solid white; /* White border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  color: white; /* White color for text */
+  background-color: white; /* White background color */
+}
+
+/* Styling for sign-in button */
+.signin-button {
+  background-color: white; /* White background color */
+  color: #000; /* Text color */
+  border: none; /* No border */
+  padding: 12px 20px; /* Padding within the button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.2s; /* Transition effect */
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: bold; /* Bold font */
+}
+
+/* Sign-in button hover effect */
+.signin-button:hover {
+  background-color: white; /* Lighter white background color on hover */
+}
+
+/* Styling for the "Forgot Password" link */
+.forgot-password {
+  text-align: right; /* Align the link to the right */
+  margin-top: 10px; /* Spacing above the link */
+}
+
+/* Styling for the "Create Account" link */
+.create-account {
+  text-align: center; /* Center the link text */
+  margin-top: 20px; /* Spacing above the link */
+}
+
+/* Styling for the "Create Account" link text */
+.create-account a {
+  color: white; /* White color for text */
+  text-decoration: none; /* No underline */
+  font-weight: bold; /* Bold font */
+}
+
+/* Create Account link text hover effect */
+.create-account a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

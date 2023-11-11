@@ -1,0 +1,36 @@
+/*Kaiyan (s3898303), Moosa (s3898303)*/
+/* Home.css */
+
+/* Container styles */
+.home-container {
+  background-color: #111; /* Dark background */
+  color: #fff; /* White text */
+  padding: 20px; /* Space around content */
+}
+
+/* Hero section styles */
+.hero-section {
+  text-align: center; /* Center-align the content */
+  padding: 40px; /* Space around hero section */
+}
+
+.hero-title {
+  font-size: 36px; /* Set the font size of the hero title */
+  margin-bottom: 10px; /* Add space at the bottom of the title */
+  font-family: 'Cinzel', sans-serif; /* Apply Cinematic-style font */
+  color: #ff5733; ; /* Red color for the title */
+}
+
+.hero-subtitle {
+  font-size: 18px; /* Set the font size of the hero subtitle */
+  margin-bottom: 20px; /* Add space at the bottom of the subtitle */
+}
+
+/* ImageCarousel container styles */
+.image-carousel-container {
+  margin-top: 40px; /* Space at the top */
+  background-color: #222; /* Darker background */
+  padding: 20px; /* Space around carousel container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Apply a subtle shadow */
+}

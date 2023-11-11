@@ -1,0 +1,31 @@
+/*Kaiyan (s3898303), Moosa (s3898303)*/
+/* Header container styles */
+.header {
+  display: flex; /* Display elements in a flex container */
+  align-items: center; /* Vertically center align items */
+  justify-content: center; /* Horizontally center align items */
+  background-color: #111; /* Dark background */
+  color: #fff; /* White text */
+  padding: 20px; /* Space around the header content */
+}
+
+/* Logo image styles */
+.logo {
+  display: flex; /* Display elements in a flex container */
+  align-items: center; /* Vertically center align items */
+}
+
+/* Logo image properties */
+.logo img {
+  width: 40px; /* Set the width of the image */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+  margin-right: 10px; /* Add space between the logo image and title */
+}
+
+/* Header title styles */
+.logo h1 {
+  font-size: 24px; /* Set the font size of the title */
+  font-family: serif; /* Apply Cinematic-style font */
+  color: #ff5733; /* Red color for the title to match the logo */
+  margin: 0; /* Remove default margin to prevent unwanted spacing */
+}

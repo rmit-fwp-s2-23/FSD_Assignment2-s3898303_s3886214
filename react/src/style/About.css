@@ -1,0 +1,38 @@
+/*Kaiyan (s3898303), Moosa (s3898303)*/
+/* About.css */
+
+/* Container styles */
+.about-container {
+  background-color: #111; /* Dark background */
+  color: #fff; /* White text */
+  padding: 40px; /* Space around the content */
+}
+
+/* Content styles */
+.about-content {
+  max-width: 800px; /* Limits the content width */
+  margin: 0 auto; /* Centers the content horizontally */
+  text-align: center; /* Centers text content */
+}
+
+/* Heading styles */
+.about-content h1 {
+  font-size: 36px; /* Large font size */
+  margin-bottom: 20px; /* Space below the heading */
+  font-family: 'Cinzel', sans-serif; /* Cinematic-style font */
+  color: #ff5733 ; ; /* Light Blue color for the heading */
+}
+
+/* Sub Heading styles */
+.about-content h2 {
+  font-size: 28px; /* Slightly smaller font size */
+  margin-top: 30px; /* Space above the subheading */
+  color: #ff5733; ; /* Light Blue color for the subheading */
+}
+
+/* Description text styles */
+.about-description {
+  font-size: 18px; /* Moderate font size for the description */
+  line-height: 1.6; /* Spacing between lines */
+  margin-bottom: 30px; /* Space below the description */
+}

@@ -1,0 +1,74 @@
+/*Kaiyan (s3898303), Moosa (s3898303)*/
+/* ImageCarousel.css */
+
+/* Container styles */
+.image-carousel-container {
+  background-color: #111; /* Dark background for contrast */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25); 
+  text-align: center;
+}
+
+/* Carousel item styles */
+.carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  margin: 0 20px; 
+  text-align: center;
+  position: relative; /* Set to relative for absolute positioning of child elements */
+}
+
+.carousel img {
+  max-width: 20%;
+  max-height: 300px;
+  display: block;
+  margin-right: 10px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.carousel img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); 
+}
+
+/* Movie details container styles */
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.1); /* Slight white tint for better readability */
+  backdrop-filter: blur(10px); /* Soften the background for improved legibility */
+  border-radius: 15px;
+}
+
+.movie-details {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.movie-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #FF5733; /* Bright color for attention */
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for 3D effect */
+}
+
+movie-description {
+  font-size: 1.1rem;
+  color: #F1F1F1;
+  line-height: 1.5;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+/* Remove unwanted margins for carousel thumbs */
+.carousel .thumbs-wrapper, .carousel .thumbs, .carousel .thumb {
+  margin: 0;
+}

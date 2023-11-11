@@ -1,0 +1,106 @@
+/*Kaiyan (s3898303), Moosa (s3898303)*/
+/* UserProfile.css */
+
+.profile-container {
+  /* Container for user profile */
+  /*... other styles ...*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically align items in the center */
+  align-items: center; /* Horizontally align items in the center */
+}
+
+.profile-button-group {
+  /* Group of profile action buttons */
+  /*... other styles ...*/
+  display: flex;
+  justify-content: center; /* Horizontally align buttons */
+  gap: 10px; /* Space between buttons */
+}
+
+h2 {
+  /* Styles for section headings */
+  text-align: center; /* Center-align the text */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.profile-section {
+  /* Styles for sections within the profile */
+  display: flex;
+  justify-content: space-between; /* Space between section elements */
+  align-items: center; /* Vertically align section elements */
+  margin: 10px 0; /* Margin around sections */
+}
+
+.profile-label {
+  /* Styles for labels within profile sections */
+  font-weight: bold; /* Bold font for labels */
+  margin-right: 10px; /* Margin to the right of labels */
+}
+
+.profile-input {
+  /* Styles for user input fields */
+  flex: 1; /* Expand input field to fill available space */
+  padding: 10px; /* Padding for input field */
+  border: 1px solid #ddd; /* Border with light gray color */
+  border-radius: 4px; /* Rounded corners for input field */
+}
+
+.profile-button-group {
+  /* Styles for the button group */
+  margin-top: 20px; /* Margin at the top of the button group */
+}
+
+.profile-button {
+  /* Shared styles for profile buttons */
+  padding: 10px 20px; /* Padding for buttons */
+  margin: 5px; /* Margin around buttons */
+  border: none; /* No button border */
+  border-radius: 5px; /* Slightly rounded button corners */
+  cursor: pointer; /* Cursor style for interaction */
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.edit-button {
+  /* Styles for the Edit button */
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+}
+
+.edit-button:hover {
+  /* Hover styles for Edit button */
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+delete-button {
+  /* Styles for the Delete button */
+  background-color: #c11b1b; /* Red background color */
+  color: #fff; /* White text color */
+}
+
+delete-button:hover {
+  /* Hover styles for Delete button */
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+save-button {
+  /* Styles for the Save button */
+  background-color: #2ecc71; /* Green background color */
+  color: #fff; /* White text color */
+}
+
+save-button:hover {
+  /* Hover styles for Save button */
+  background-color: #27ae60; /* Darker green on hover */
+}
+
+cancel-button {
+  /* Styles for the Cancel button */
+  background-color: #f31212b7; /* Semi-transparent red background */
+  color: #fff; /* White text color */
+}
+
+cancel-button:hover {
+  /* Hover styles for Cancel button */
+  background-color: #e63c22; /* Darker red on hover */
+}

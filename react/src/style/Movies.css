@@ -1,0 +1,104 @@
+/*Kaiyan (s3898303), Moosa (s3898303)*/
+/* Movies.css */
+
+/* Movie List Container */
+.movie-list {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  position: relative; /* Added for positioning */
+}
+
+/* Movie Card */
+.movie {
+  background-color: #ffffff; /* White background for movie cards */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  position: relative; /* Added for positioning */
+}
+
+/* Movie Card Hover Effect */
+.movie:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Movie Image */
+.movie img {
+  max-width: 10%; /* Limit the image size */
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  object-fit: cover; /* Ensure images fit their containers */
+}
+
+/* Movie Image Hover Effect */
+.movie img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  transition: transform 0.2s;
+}
+
+/* Movie Title */
+.movie h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ff5733; /* Red color for movie titles */
+  text-transform: uppercase; /* Uppercase movie titles */
+}
+
+/* Movie Description */
+.movie p {
+  font-size: 16px;
+  color: #999; /* Light gray color for movie descriptions */
+  line-height: 1.5; /* Improved readability with line-height */
+}
+
+/* Add some spacing between cards */
+.movie:first-child {
+  margin-top: 0;
+}
+
+/* Center the movie list */
+.movie-list {
+  text-align: center;
+}
+
+/* Add a nice heading style */
+.movie-list h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Add a call-to-action button (Chakra UI style) */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: #ff5733; /* Red color for the button */
+  color: #fff; /* White text for the button */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: #d9462d; /* Darker red color on hover */
+}
